@@ -16,4 +16,8 @@ file = open("README.md", "r")
 contents = file.read()
 file.close()
 print(contents)
+print(contents)
+print(contents)
+print(contents)
+
 
