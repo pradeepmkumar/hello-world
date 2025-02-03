@@ -4,20 +4,29 @@ if (user_input == password):
      print("Access granted!")
 else:
      print("Access denied.")
-def sayhello():
-     print("hello")
 
-sayhello()
-sayhello()
+
+from hello import sayhell
+sayhell()
+another()
+
 
 
 
 file = open("README.md", "r")
 contents = file.read()
 file.close()
-print(contents)
-print(contents)
-print(contents)
-print(contents)
+
+
+
+def say_hello():
+     print("Hello, World!")
+
+say_hello()
+say_hello()
+say_hello()
+say_hello()
+say_hello()
+say_hello()
 
 
